@@ -1,6 +1,6 @@
 # ORGANNECT
 ORGANNECT IS HERE TO CHANGE YOUR LIFE!
-[WEBPAGE](https://github.com/CrossBytes/ORGANNECT/blob/main/WhatsApp%20Image%202023-05-21%20at%2010.04.03%20PM.jpeg?raw=true)
+[](https://github.com/CrossBytes/ORGANNECT/blob/main/WhatsApp%20Image%202023-05-21%20at%2010.04.03%20PM.jpeg?raw=true)
 
 In a world where pesticide-laden vegetables and fruits have become the norm, organic farming emerges as a beacon of hope. Organic farming, also known as ecological farming, is a practice that emphasizes natural and sustainable methods to cultivate crops and raise livestock, without the use of harmful chemicals. 
 
