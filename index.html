@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ORGANNECT - Marketplace for Organic Produce</title>
+  <link rel="icon" type="images/icon" href="images/leaves.png"><!--adding favicon -->
+  <!--applying the meta tag for viewing-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"><!--linkinng the style sheet-->
+  <!-- code for font awesome cdn-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"    >
+
+</head>
+<body>
+  <!--header section begins-->
+  <header class = "header">
+    <a href="#" class = "logo"><i class="fa fa-envira" aria-hidden="true"></i>Organnect</a>
+   <nav class = "navbar">
+    <!--ul-->
+      <a href="index.html"><i class="fa fa-home"></i>Home</a>
+      <a href="#about">About Us</a>
+      <a href="community.html">community</a> <!-- Link to the product page -->
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+     <!--/ul-->
+
+  </nav>
+  <!--section for the icons like search,cart,login-->
+  <div class="icons">
+    <div class="fa fa-bars" id="menu-btn"></div>
+    <a href="cart.html">
+    <div class="fa fa-shopping-cart" id="cart-btn"><span>0</span></div></a>
+    <a href="login.html">
+    <div class="fa fa-user-circle-o" id="user-btn"></div></a>
+    <div class="fa fa-search" id="search-btn"></div>
+  </div>
+  
+  <form class="searchform"> <!--space for the search box-->
+    <input type="search" id="search-box" placeholder="search">
+    <label for="search-box" class="fa fa-search"></label>
+  </form>
+  <!--for the shopping the cart
+  <div class="cart">
+    <div class="box">
+      <i class="fa fa-trash"></i>
+      <img src="images/carrots.jpg" height="70px" width="80px">
+      <div class="contents">
+        <h3>Carrot</h3>
+        <span class="price">Rs.60</span>
+        <span class="quantity">Qty : 1Kg</span>
+      </div>
+    </div>
+    <div class="box">
+      <i class="fa fa-trash"></i>
+      <img src="images/mattarice.jpeg" height="70px" width="80px">
+      <div class="contents">
+        <h3>Matta Rice</h3>
+        <span class="price">Rs.40</span>
+        <span class="quantity">Qty : 1Kg/-</span>
+      </div>
+    </div>
+    <div class="box">
+      <i class="fa fa-trash"></i>
+      <img src="images/potatoes.jpg" height="70px" width="80px">
+      <div class="contents">
+        <h3>Potatoe</h3>
+        <span class="price">Rs.40/-</span>
+        <span class="quantity">Qty : 1Kg</span>
+      </div>
+    </div>
+    <div class="box">
+      <i class="fa fa-trash"></i>
+      <img src="images/milletcookies.jpg" height="70px" width="80px">
+      <div class="contents">
+        <h3>Carrot</h3>
+        <span class="price">Rs.60/-</span>
+        <span class="quantity">Qty : 1pack</span>
+      </div>
+    </div>
+
+
+    <div class="total">Total : Rs.200/-</div>
+    <a href="#" class="btn">Checkout</a>
+  </div>-->
+  </header><!--header section ends-->
+
+  <!--home section begins-->
+  <section class="home">
+    <div class="content">
+      <h3>Welcome To <span>Organnect</span></h3>
+      <p>Experience the Goddness of Organic Products</p>
+      <a href="#features" class="btn">Explore Now</a></div>
+    </div>
+  </section>
+
+  <!--about us section-->
+  <section class="about" id="about">
+    <h1 class="heading">About <span>Us</span></h1>
+    <div class="box">
+      <p>We at Organnect, aim to build a community of organic farmers to nurture and grow their business online. <br>
+        From farmer-farmer interaction as a means to promote barter system, to providing farming tools, organic supplements and seeds, our services help to ensure that quality and healthy food is available to all.<br>
+        By connecting farmers from around the world, we want to change the global food marketplace and switch to healthier, safer farm produce. 
+        <br>Organic farm tools, supplements and seeds help to encourage users to start cultivating organic foods at their homes, guaranteeing quality.Thus, we get food <br>directly from the farm onto our plates.<br><span><a href="login.html">Join us Today!</a></span>
+      </p> 
+    </div>
+  </section>
+  <!--features section of the webpage--> 
+  <section class="features" id="features">
+    <h1 class="heading">Our <span>Features</span></h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="images/farmerscommun.jpg" height="250px" width="350px">
+        <h3>Community</h3>
+        <p>Browse through our partner farmers and their products. Each farm featured here uses organic implements and produces the best quality fruits and vegetables
+        </p>
+        <a href="community.html" class="btn">Explore</a>
+      </div>
+      <div class="box">
+        <img src="images/fertilizer.jpg" height="250px" width="350px">
+        <h3>Supplements and Tools</h3>
+        <p>Want to start organic farming at home? Here are the best tools and supplements to help you produce healthy crops in your backyard.<br>Shop with us and help to build a healthy world.</p>
+        <a href="tools.html" class="btn">Explore</a>
+      </div>
+      <div class="box">
+        <img src="images/seedsandsapling.jpg" height="250px" width="350px">
+        <h3>Seeds and Saplings</h3>
+        <p>Looking for good yielding seeds and saplings to plant at home? Here are organic seeds and saplings which will aid you to cultivate quality plants at home
+        </p>
+        <a href="seeds.html" class="btn">Explore</a>
+      </div>
+  
+      
+    </div>
+  </section>
+  
+  <!--review section-->
+  <section class="review" id="review">
+    <h1 class="heading">Customer<span>Review</span></h1>
+
+    <div class="review-slider">
+      <div class="wrapper">
+        <div class="box">
+          <img src="images/pic1.jpg" height="250px" width="350px">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, dicta reiciendis totam fugiat dignissimos modi exercitationem quae quidem nisi vero libero, eos temporibus architecto accusamus maiores, doloremque animi repellat. Magni?</p>
+          <h3>Name 1</h3>
+          <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+         </div>
+        </div>
+
+        <div class="box">
+          <img src="images/pic2.jpg" height="250px" width="350px">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, dicta reiciendis totam fugiat dignissimos modi exercitationem quae quidem nisi vero libero, eos temporibus architecto accusamus maiores, doloremque animi repellat. Magni?</p>
+          <h3>Name 2</h3>
+          <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+         </div>
+        </div>
+
+        <div class="box">
+          <img src="images/pic3.jpg" height="250px" width="350px">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, dicta reiciendis totam fugiat dignissimos modi exercitationem quae quidem nisi vero libero, eos temporibus architecto accusamus maiores, doloremque animi repellat. Magni?</p>
+          <h3>Name 3</h3>
+          <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+         </div>
+        </div>
+
+        <div class="box">
+          <img src="images/pic4.jpg" height="250px" width="350px">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, dicta reiciendis totam fugiat dignissimos modi exercitationem quae quidem nisi vero libero, eos temporibus architecto accusamus maiores, doloremque animi repellat. Magni?</p>
+          <h3>Name 4</h3>
+          <div class="stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half" aria-hidden="true"></i>
+         </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!--footer section begins here-->
+<section class="footer">
+  <div class="box-container">
+    <div class="box">
+      <h3>Organnect<i class="fa fa-envira" aria-hidden="true"></i></h3>
+      <p>This website is Produly created by team CrossBytes.
+        Feel free to connect us through our social media handles.</p>
+        <div class="icon">
+          <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="https://instagram.com/cross.bytes?igshid=ZDdkNTZiNTM="><ion-icon name="logo-instagram"></ion-icon></a>   
+          <a href="https://github.com/CrossBytes"><ion-icon name="logo-github"></ion-icon></a>      
+          <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+       </div> 
+    </div>
+
+    <div class="box" id="contact">
+      <h3>COntact-info</h3>
+      <a href="#" class="link"><i class="fa fa-phone-square" aria-hidden="true"></i>0491-2222000</a>
+      <a href="#" class="link"><i class="fa fa-mobile" aria-hidden="true"></i>+91 9843323931</a>
+      <a href="#" class="link"><i class="fa fa-envelope-o" aria-hidden="true"></i>example123@gmail.com</a>
+      <a href="#" class="link"><i class="fa fa-map-marker" aria-hidden="true"></i>Kerala,India</a>
+        
+    </div>
+
+    <div class="box">
+      <h3>Quick Links</h3>
+      <a href="index.html" class="link"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Home</a>
+      <a href="#about" class="link"><i class="fa fa-hand-o-right" aria-hidden="true"></i>About Us</a>
+      <a href="community.html" class="link"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Community</a>
+      <a href="#features" class="link"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Features</a>
+      <a href="#" class="link"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Contact</a>
+
+
+        
+    </div>
+
+  </div>
+  <p class="copyright">&copy; 2023 CrossBytes. All rights reserved.</p>
+</section>
+<!--footer section ending-->
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.css" ></script>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
