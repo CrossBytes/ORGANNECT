@@ -3,13 +3,14 @@
 
 ![organnect.png](https://github.com/CrossBytes/ORGANNECT/blob/main/organnect.png)
 
-**The Team:** 
-- Aiswarya Satheesh
-- Ajmi Nasar
-- Chanchal Santhosh
-- Megha Ranjani M
+*The Team:* 
+**- Aiswarya Satheesh**
+**- Ajmi Nasar**
+**- Chanchal Santhosh**
+**- Megha Ranjani M**
 
 *Overview*
+
 In a world where pesticide-laden vegetables and fruits have become the norm, organic farming emerges as a beacon of hope. Organic farming, also known as ecological farming, is a practice that emphasizes natural and sustainable methods to cultivate crops and raise livestock, without the use of harmful chemicals. 
 
 **FEATURES**
@@ -20,4 +21,5 @@ In a world where pesticide-laden vegetables and fruits have become the norm, org
 
 -> Furthermore, our website actively encourages users to embrace organic farming by providing them with valuable tips, tools, and resources. Users can conveniently purchase organic produce, seeds, supplements, and even exchange their own harvest with fellow farmers through the platform.
 
-Ultimately, our application aims to promote organic farming among the youth and contribute to the overall improvement of the quality of the food we consume. By facilitating direct farmer-to-farmer interactions, offering a marketplace for organic products, and providing support and information for aspiring organic farmers, we aspire to create a positive impact on the future of agriculture and the well-being of individuals.
+*Ultimately, our application aims to promote organic farming among the youth and contribute to the overall improvement of the quality of the food we consume. y facilitating direct farmer-to-farmer interactions, offering a marketplace for organic products, and providing support and information for aspiring organic farmers, we aspire to create a positive impact on the future of agriculture and the well-being of individuals.*
+
